@@ -14,7 +14,7 @@ const Nav = () => {
         </li>
      
         <li>
-          <Link to="/AboutMe">Project</Link>
+          <Link to="/AboutMe">Projects</Link>
         </li>
         <button className="button">
           <Link to="/Conctact">Say Hello</Link>

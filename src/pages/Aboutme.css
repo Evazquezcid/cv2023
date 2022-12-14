@@ -7,7 +7,14 @@
   }
   
 
-
+h1 {
+    
+    font-size: 3rem;
+    font-style: inherit;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: underline;
+}
 
 .cards {
     display: grid;

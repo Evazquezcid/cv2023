@@ -4,7 +4,7 @@ import "./Aboutme.css";
 const AboutMe = () => {
   return (
     <div className="containeraboutme">
-     <h1>PROYECTOS</h1>
+     <h1>Projects</h1>
       <div className="cointainertarjetas">
       <ul class="cards">
   <li>
@@ -26,7 +26,7 @@ const AboutMe = () => {
   </li>
   <li>
     <a href="https://api-rick-morty-mu.vercel.app/ " class="card">
-      <img src="ricky.png" class="card__image" alt="ricky" />
+      <img src="pegatina.png" class="card__image" alt="ricky" />
       <div class="card__overlay">        
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
@@ -65,11 +65,43 @@ const AboutMe = () => {
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
           <img class="card__thumb" src="avataaars.png" alt="" />
           <div class="card__header-text">
-            <h3 class="card__title">kim Cattrall</h3>
-            <span class="card__status">3 hours ago</span>
+            <h3 class="card__title">PIEDRA,PAPEL O TIJERA</h3>
+            <span class="card__status">JAVASCRIP</span>
           </div>          
         </div>
-        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <p class="card__description">Practicando Javascrips y sus eventos. Si lo puebras no podrás parar. </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="https://carritocompra-nine.vercel.app/ " class="card">
+      <img src="toy.png" class="card__image" alt="tienda" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+          <img class="card__thumb" src="avataaars.png" alt="me" />
+          <div class="card__header-text">
+            <h3 class="card__title">TOYLAND</h3>
+            <span class="card__status">JAVASCRIP Y BOOTSTRAP</span>
+          </div>
+        </div>
+        <p class="card__description">Creo un carro de la compra donde poder editarlo o eliminar productos. Utilizo Bootstrap para la maquetacíon.</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="https://cronometro-react-one.vercel.app/ " class="card">
+      <img src="horas.png" class="card__image" alt="reloj" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+          <img class="card__thumb" src="avataaars.png" alt="me" />
+          <div class="card__header-text">
+            <h3 class="card__title">CRONOMETRO, CUENTA ATRÁS, HORA </h3>
+            <span class="card__status">REACT,CSS.</span>
+          </div>
+        </div>
+        <p class="card__description">Traigo de la APi publica los datos y genero unas tarjetas principales que nos llevan a unas más de talladas.</p>
       </div>
     </a>
   </li>    
