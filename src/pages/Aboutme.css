@@ -1,0 +1,44 @@
+.containeraboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+.cointainertarjetas {
+ 
+}
+
+
+
+.card {
+    height: auto;
+    width: auto;
+    background-color:#bae8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 8%;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+  
+   
+  
+
+}
+
+
+.card h4, h2, p {
+ margin-top: 5%;
+}
+
+
+.partesobremi {
+    margin-top: 10%;
+}
