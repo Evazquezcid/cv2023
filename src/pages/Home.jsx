@@ -26,16 +26,17 @@ const Home = () => {
       <div className="herramientas2">
       <img className="img" src="php.png" alt="foto" />
       <img className="img" src="git.png" alt="foto" />
+      <img className="img" src="bootstrap.png" alt="foto" />
       
       </div>
-      <div className="masinfo">
-        <p>lFULL STACK JUNIOR DEVELOPER APASIONADA POR LAS NUEVAS TECNOLOGÍAS. <br></br>ESPECIALIZADA EN FRONT END, TECNOLOGÍAS COMO REACT, HTML, CSS Y JAVASCRIPT.
-<br></br>CAPACIDAD DE LIDERAZGO, GESTIÓN, FORMACIÓN Y DESARROLLO DE EQUIPOS.
-<br></br>ALTA CAPACIDAD DE APRENDIZAJE AL VUELO, ADAPTACIÓN AL CAMBIO, HABILIDAD ORGANIZATIVA Y TRABAJO EN EQUIPO. <br></br>SIEMPRE ESTOY EN CONSTANTE APRENDIZAJE Y FORMÁNDOME EN NUEVAS TECNOLOGÍAS.
-<br></br>ME CONSIDERO UNA PERSONA MUY SOCIABLE Y CON MUCHAS GANAS DE APRENDER Y APORTAR MIS CONOCIMIENTOS EN EL SECTOR WEB DEVELOPER.</p>
+      <div className="mashero">
+      <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superios de Adobe Campaing, Analytics y Target. </h4>
+      </div>
+   
+
      <div className="finalhome">
         <img className="img" src="mac.png" alt="foto" />
-     </div>   
+     
     
       </div>
      
