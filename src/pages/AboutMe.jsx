@@ -107,6 +107,12 @@ const AboutMe = () => {
   </li>    
 </ul>
 </div>
+<div className="git">
+<h4>En este botón aterrizas directamente a mi Github donde podrás ir viendo las novedades y lo que voy actualizando.</h4>
+<a href="https://github.com/Evazquezcid">
+          <button className="btngit">Github </button>
+        </a>
+</div>
     </div>
   );
 };

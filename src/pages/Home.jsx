@@ -6,15 +6,18 @@ const Home = () => {
   return (
     <div className="container">
       <div className="intro">
-        <h1 className="titulo">Junior Full Stack Developer</h1>
+        <h1 className="titulo">Jr.Full Stack Developer</h1>
         <h2>Soy Esther</h2>
         <h4>
           Codeo y Diseño paginas WEB.<br></br>Me encanta lo que hago y disfruto
-          investigando nuevas técnologías. 
+          investigando nuevas técnologías. En el boton de abajo puedes decargar mi Cv.
         </h4>
+        <button className="btncv">
+            <a href={"estherv.png"} target="_blank" rel="noopener noreferrer">CV PDF</a>
+        </button>
       </div>
       <div className="containerimagen">
-        <img className="img" src="avataaars.png" alt="foto" />
+        <img className="avatar" src="avataaars.png" alt="foto" />
       </div>
       <div className="herramientas">
       <img className="img" src="react.png" alt="foto" />
@@ -30,7 +33,7 @@ const Home = () => {
       
       </div>
       <div className="mashero">
-      <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superios de Adobe Campaing, Analytics y Target. </h4>
+      <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superior de Adobe Campaing, Analytics y Target. </h4>
       </div>
    
 

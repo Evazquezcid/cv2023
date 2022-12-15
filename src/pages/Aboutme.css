@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Fira+Sans:ital,wght@0,100;1,100&display=swap');
+
+
 :root {
     --surface-color: #fff;
     --curve: 40;
@@ -23,6 +27,7 @@ h1 {
     margin: 4rem 5vw;
     padding: 0;
     list-style-type: none;
+    margin-top: 3%;
   }
   
   .card {
@@ -95,7 +100,7 @@ h1 {
   .card__title {
     font-size: 1em;
     margin: 0 0 .3em;
-    color: #6A515E;
+    color: #010101;
   }
   
   .card__tagline {
@@ -103,21 +108,45 @@ h1 {
     margin: 1em 0;
     font-family: "MockFlowFont";  
     font-size: .8em; 
-    color: #D7BDCA;  
+    color: #000000;  
   }
   
   .card__status {
     font-size: .8em;
-    color: #D7BDCA;
+    color: #000000;
   }
   
   .card__description {
     padding: 0 2em 2em;
     margin: 0;
-    color: #D7BDCA;
+    color: #000000;
     font-family: "MockFlowFont";   
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+    font-family: 'Crushed', cursive;
   }    
+
+  .git {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .git h4 {
+    text-align: center;
+  }
+
+  .btngit{
+    margin-top: 5%;
+    background-color: #ffffff;
+    font-size: .8rem;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: rgb(192, 194, 255) 0px 0px 0px 3px, rgb(127, 197, 126) 0px 0px 0px 6px, rgb(255, 236, 139) 0px 0px 0px 9px, rgb(255, 186, 137) 0px 0px 0px 12px, rgb(255, 172, 172) 0px 0px 0px 15px;
+   
+  }

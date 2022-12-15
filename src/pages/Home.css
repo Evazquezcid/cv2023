@@ -1,10 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Fira+Sans:ital,wght@0,100;1,100&display=swap');
+
+
+
+
+
 .container {
     margin-left: 10%;
 	margin-right: 10%;
 	height: 100%;
 	border-radius: 20px;
-	background-color: rgb(252, 252, 252);
+	background-color: #fcfcfc;
+	background-image: url("../../public/fondo.png");
+	background-size: 300px 500px;
+	
 	margin-bottom: 5%;
+	font-family: 'Crushed', cursive;
 	
 
     
@@ -16,6 +27,7 @@
     margin-top: 70px;
     text-align: center;
 	padding: 10%;
+
 	
 
 
@@ -25,6 +37,8 @@
 .titulo {
 	
 	font-size: 2.5rem;
+	font-family: 'Crushed', cursive;
+	
 }
 
 
@@ -32,6 +46,7 @@
    margin-bottom: 25px;
     margin-top: 15px;
 	font-size: 1.2rem;
+	font-family: 'Crushed', cursive;
 }
 
 .containerimagen{
@@ -41,9 +56,31 @@
 	align-items: center;
 }
 
+.btncv{
+    background-color: #d5f5f3;
+    font-size: .8rem;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+
+.avatar {
+	background-color:#d5f5f3;
+	border: 10px;
+	border-radius: 40px;
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	padding: 2%;
+}
+
+.avatar:hover{
+	box-shadow: rgba(191, 222, 51, 0.828) 1.95px 1.95px 2.6px;
+}
 img {
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
+	
+
 }
 
 
