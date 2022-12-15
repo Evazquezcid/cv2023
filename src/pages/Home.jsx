@@ -12,6 +12,9 @@ const Home = () => {
           Codeo y Diseño paginas WEB.<br></br>Me encanta lo que hago y disfruto
           investigando nuevas técnologías. En el boton de abajo puedes decargar mi Cv.
         </h4>
+        <div className="finalhome">
+        <img className="img" src="mac.png" alt="foto" />
+      </div>
         <button className="btncv">
             <a href={"estherv.png"} target="_blank" rel="noopener noreferrer">CV PDF</a>
         </button>
@@ -37,11 +40,13 @@ const Home = () => {
       </div>
    
 
-     <div className="finalhome">
-        <img className="img" src="mac.png" alt="foto" />
-     
     
-      </div>
+
+      <div className="iconos">
+     
+      <a href="https://www.instagram.com/especialistasweb/"><img  src="logoinsta.png" alt="foto" /></a>
+      <a href="https://www.linkedin.com/in/esthervazquezcid/"><img  src="logolinkedin.png" alt="foto"/></a>
+        </div>
      
     </div>
     

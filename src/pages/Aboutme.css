@@ -138,14 +138,18 @@ h1 {
 
   .git h4 {
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .btngit{
-    margin-top: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     background-color: #ffffff;
     font-size: .8rem;
     width: 100px;
     height: 40px;
+    border-style: none;
     border-radius: 30px;
     box-shadow: rgb(192, 194, 255) 0px 0px 0px 3px, rgb(127, 197, 126) 0px 0px 0px 6px, rgb(255, 236, 139) 0px 0px 0px 9px, rgb(255, 186, 137) 0px 0px 0px 12px, rgb(255, 172, 172) 0px 0px 0px 15px;
    
