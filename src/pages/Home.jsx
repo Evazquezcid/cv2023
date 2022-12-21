@@ -10,10 +10,16 @@ const Home = () => {
         <h2>Soy Esther</h2>
         <h4>
           Codeo y Diseño paginas WEB.<br></br>Me encanta lo que hago y disfruto
-          investigando nuevas técnologías. En el boton de abajo puedes decargar mi Cv.
+          investigando nuevas técnologías. <br></br>En el boton de abajo puedes decargar mi Cv y ver mi trayectoria laboral y mis estudios. 
+          Estoy preparada para un nuevo reto. <br>
+
+          </br>Let´s Go! 
         </h4>
+        <div className="mashero">
+      <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superior de Adobe Campaing, Analytics y Target. </h4>
+      </div>
         <div className="finalhome">
-        <img className="img" src="mac.png" alt="foto" />
+        <img className="imgmac" src="mac.png" alt="foto" />
       </div>
         <button className="btncv">
             <a href={"estherv.png"} target="_blank" rel="noopener noreferrer">CV PDF</a>
@@ -22,6 +28,7 @@ const Home = () => {
       <div className="containerimagen">
         <img className="avatar" src="avataaars.png" alt="foto" />
       </div>
+      <div className="allh">
       <div className="herramientas">
       <img className="img" src="react.png" alt="foto" />
       <img className="img" src="javascrip.png" alt="foto" />
@@ -33,11 +40,9 @@ const Home = () => {
       <img className="img" src="php.png" alt="foto" />
       <img className="img" src="git.png" alt="foto" />
       <img className="img" src="bootstrap.png" alt="foto" />
-      
       </div>
-      <div className="mashero">
-      <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superior de Adobe Campaing, Analytics y Target. </h4>
       </div>
+     
    
 
     

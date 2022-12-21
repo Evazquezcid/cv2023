@@ -1,145 +1,153 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Fira+Sans:ital,wght@0,100;1,100&display=swap');
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Crushed&family=Fira+Sans:ital,wght@0,100;1,100&display=swap");
 
 .container {
-    margin-left: 10%;
-	margin-right: 10%;
-	height: 100%;
-	border-radius: 20px;
-	background-color: #fcfcfc;
-	background-image: url("../../public/fondo.png");
-	background-size: 300px 500px;
-	
-	margin-bottom: 5%;
-	font-family: 'Crushed', cursive;
-	
-
-    
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #fcfcfc;
+  background-image: url("../../public/fondo.png");
+  background-size: 300px 500px;
+  margin-bottom: 5%;
+  font-family: "Crushed", cursive;
 }
 
-
-
 .intro {
-    margin-top: 70px;
-    text-align: center;
-	padding: 10%;
-
-	
-
-
-
+  margin-top: 70px;
+  text-align: center;
+  padding: 10%;
+  text-align: center;
+  line-height: 43px;
 }
 
 .titulo {
-	
-	font-size: 2.5rem;
-	font-family: 'Crushed', cursive;
-	
+  font-size: 2.5rem;
+  font-family: "Crushed", cursive;
 }
 
-
-.intro  h2,h4 {
-   margin-bottom: 25px;
-    margin-top: 15px;
-	font-size: 1.2rem;
-	font-family: 'Crushed', cursive;
+.intro h2,
+h4 {
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-family: "Crushed", cursive;
 }
 
-.containerimagen{
-	margin-top: 50px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.containerimagen {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.btncv{
-    background-color: #d5f5f3;
-    font-size: .8rem;
-    width: 100px;
-    height: 40px;
-    border-radius: 30px;
-	border-style: none;
-	box-shadow: rgb(226, 231, 235) 3px 3px 6px 0px inset, rgba(204, 116, 233, 0.836) -3px -3px 6px 1px inset;
+.btncv {
+  background-color: #d5f5f3;
+  font-size: 0.9rem;
+  width: 150px;
+  height: 70px;
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: rgb(226, 231, 235) 3px 3px 6px 0px inset,
+    rgba(204, 116, 233, 0.836) -3px -3px 6px 1px inset;
 }
-
 
 .avatar {
-	background-color:#d5f5f3;
-	border: 10px;
-	border-radius: 40px;
-	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-	padding: 2%;
+  background-color: #d5f5f3;
+  border: 10px;
+  border-radius: 40px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 2%;
 }
 
-.avatar:hover{
-	box-shadow: rgba(191, 222, 51, 0.828) 1.95px 1.95px 2.6px;
+.avatar:hover {
+  box-shadow: rgba(191, 222, 51, 0.828) 1.95px 1.95px 2.6px;
 }
 img {
-	height: 250px;
-	width: 250px;
-	
-
+  height: 250px;
+  width: 250px;
 }
-
 
 .sobremi {
-	text-align: center;
-	margin: 5%;
-	
-	
+  text-align: center;
+  margin: 5%;
 }
 
+.allh {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 .herramientas {
-	margin-top: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 3%;
 }
 
 .herramientas img {
-	width: 60px;
-	height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 .herramientas2 {
-	margin-top: 20px;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .herramientas2 img {
-	width: 60px;
-	height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 .mashero {
-	margin-top: 15%;
-	padding: 8%;
-	text-align: center;
+  text-align: center;
 }
 
 .iconos img {
-	width: 70px;
-	height: 70px;
-	
-	
-	
+  width: 70px;
+  height: 70px;
+ 
 }
-
 
 .iconos {
-	
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	padding: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5%;
+  margin-top: 10%;
+ 
 }
 
+
+@keyframes animacionMac {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+    opacity: 1;
+  }
+  }
+
+
+  
+
+.imgmac {
+  margin-bottom: 5%;
+  animation-name: animacionMac;
+  animation-iteration-count:initial;
+  animation-duration: 10s;
+}
