@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
 :root {
     --red: hsl(0, 61%, 79%);
     --cyan: hsl(180, 43%, 70%);
@@ -13,7 +16,9 @@
 
 body {
     font-size: 15px;
-    font-family: "Crushed", cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    
     
 }
 
@@ -129,6 +134,7 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        
      
     }
     
@@ -136,6 +142,7 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 3%;
      
     }
     .box-down {

@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crushed&family=Fira+Sans:ital,wght@0,100;1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
 
 .container {
   margin-left: 10%;
@@ -9,20 +11,22 @@
   background-image: url("../../public/fondo.png");
   background-size: 300px 500px;
   margin-bottom: 5%;
-  font-family: "Crushed", cursive;
+  border-radius: 30px;
+  
 }
 
 .intro {
   margin-top: 70px;
   text-align: center;
   padding: 10%;
-  text-align: center;
   line-height: 43px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .titulo {
   font-size: 2.5rem;
-  font-family: "Crushed", cursive;
+  background-color: #fcfcfc;
+  
 }
 
 .intro h2,
@@ -30,7 +34,13 @@ h4 {
   margin-bottom: 25px;
   margin-top: 15px;
   font-size: 1.2rem;
-  font-family: "Crushed", cursive;
+  background-color: #fcfcfc;
+ 
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  margin-top: 3%;
 }
 
 .containerimagen {
@@ -71,29 +81,33 @@ img {
 .sobremi {
   text-align: center;
   margin: 5%;
+  
 }
 
 .allh {
-  background-color: rgb(255, 255, 255);
+  background-color: #fcfcfc;
+  box-shadow: rgba(207, 233, 94, 0.828) 1.95px 1.95px 2.6px;
   border-radius: 30px;
-  margin-left: 2%;
-  margin-right: 2%;
+  padding: 3%;
+  margin: 10%;
 }
 .herramientas {
-  margin-top: 100px;
+  
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding-top: 3%;
+  justify-content: space-evenly;
+  padding: 5%;
+
+  
 }
 
 .herramientas img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 .herramientas2 {
-  margin-top: 20px;
+  
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -109,8 +123,8 @@ img {
 }
 
 .iconos img {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
  
 }
 
@@ -121,6 +135,8 @@ img {
   justify-content: space-around;
   padding: 5%;
   margin-top: 10%;
+  border-top: 2px solid black;
+  background-color: #fcfcfc;
  
 }
 

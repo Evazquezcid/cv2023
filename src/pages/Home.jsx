@@ -7,26 +7,22 @@ const Home = () => {
     <div className="container">
       <div className="intro">
         <h1 className="titulo">Jr.Full Stack Developer</h1>
-        <h2>Soy Esther</h2>
-        <h4>
-          Codeo y Diseño paginas WEB.<br></br>Me encanta lo que hago y disfruto
-          investigando nuevas técnologías. <br></br>En el boton de abajo puedes decargar mi Cv y ver mi trayectoria laboral y mis estudios. 
-          Estoy preparada para un nuevo reto. <br>
-
-          </br>Let´s Go! 
-        </h4>
-        <div className="mashero">
-      <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superior de Adobe Campaing, Analytics y Target. </h4>
+        <div className="containerimagen">
+        <img className="avatar" src="avataaars.png" alt="foto" />
       </div>
+        <h2>Soy Esther</h2>
         <div className="finalhome">
         <img className="imgmac" src="mac.png" alt="foto" />
       </div>
-        <button className="btncv">
-            <a href={"estherv.png"} target="_blank" rel="noopener noreferrer">CV PDF</a>
-        </button>
-      </div>
-      <div className="containerimagen">
-        <img className="avatar" src="avataaars.png" alt="foto" />
+        <h4>
+          Codeo y Diseño paginas WEB.<br></br>Me encanta lo que hago y disfruto
+          investigando nuevas técnologías. Empecé en el mundo del desarrollo hace un año y actualmente hago pequeños trabajos Freelance mientras me sigo formando. También estoy en proceso de creación de una Agencia de Desarrolo web para particulares y pequeñas empresas. Abajo puedes ver mi instagram.
+          <br></br>Abajo tienes un botón para poder descargar mi CV en formato PDF.Estoy lista para un nuevo reto! <br>
+
+          </br>Let´s Go!  🚀
+        </h4>
+        <div className="mashero">
+      <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superior de Adobe Campaing, Analytics y Target. </h4>
       </div>
       <div className="allh">
       <div className="herramientas">
@@ -40,8 +36,16 @@ const Home = () => {
       <img className="img" src="php.png" alt="foto" />
       <img className="img" src="git.png" alt="foto" />
       <img className="img" src="bootstrap.png" alt="foto" />
+      <img className="img" src="wordpress.png" alt="foto" />
       </div>
       </div>
+       
+        <button className="btncv">
+            <a href={"estherv.png"} target="_blank" rel="noopener noreferrer">CV PDF</a>
+        </button>
+      </div>
+      
+     
      
    
 
@@ -49,8 +53,8 @@ const Home = () => {
 
       <div className="iconos">
      
-      <a href="https://www.instagram.com/especialistasweb/"><img  src="logoinsta.png" alt="foto" /></a>
-      <a href="https://www.linkedin.com/in/esthervazquezcid/"><img  src="logolinkedin.png" alt="foto"/></a>
+      <a href="https://www.instagram.com/especialistasweb/"><img  src="instagram.png" alt="foto" /></a>
+      <a href="https://www.linkedin.com/in/esthervazquezcid/"><img  src="linki.png" alt="foto"/></a>
         </div>
      
     </div>

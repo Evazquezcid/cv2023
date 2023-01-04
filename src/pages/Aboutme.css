@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Fira+Sans:ital,wght@0,100;1,100&display=swap');
+
 
 
 :root {
@@ -106,7 +106,7 @@ h1 {
   .card__tagline {
     display: block;
     margin: 1em 0;
-    font-family: "MockFlowFont";  
+   
     font-size: .8em; 
     color: #000000;  
   }
@@ -120,12 +120,11 @@ h1 {
     padding: 0 2em 2em;
     margin: 0;
     color: #000000;
-    font-family: "MockFlowFont";   
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    font-family: 'Crushed', cursive;
+    
   }    
 
   .git {
