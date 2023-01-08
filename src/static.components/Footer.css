@@ -5,12 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-   
- 
+    font-size: 1.2 rem;
 }
 
-.btnemail {
+/* .btnemail {
     border-style: none;
     background-color: #ffffff;
     font-size: 1rem;
@@ -20,6 +18,23 @@
     box-shadow: rgba(143, 43, 43, 0.15) 2.4px 2.4px 3.2px;
    
 }
+
+
+@media (max-width: 700px) {
+    .btnemail{
+        font-size: .6 rem;
+        width: 80px;
+        height: 30px;
+    }
+  } */
+
+@media (max-width: 700px) {
+    .footer p{
+     font-size: 0.5 rem;
+   
+     text-align: center;
+    }
+  }
 
 .footer p {
     font-style: oblique;

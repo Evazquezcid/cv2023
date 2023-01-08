@@ -21,12 +21,19 @@
   padding: 10%;
   line-height: 43px;
   font-family: 'Roboto Mono', monospace;
+  
 }
 
 .titulo {
   font-size: 2.5rem;
   background-color: #fcfcfc;
   
+}
+
+@media (max-width: 700px) {
+ .titulo {
+  font-size: 1.8rem;
+  }
 }
 
 .intro h2,
@@ -38,10 +45,26 @@ h4 {
  
 }
 
+@media (max-width: 700px) {
+  .intro h2,
+h4  {
+   font-size: 0.9 rem;
+   text-align: justify;
+   }
+ }
+
 .intro h2 {
   font-size: 1.8rem;
   margin-top: 3%;
+  
 }
+
+@media (max-width: 700px) {
+  .intro h2 {
+   font-size: 1.1 rem;
+   text-align: center;
+   }
+ }
 
 .containerimagen {
   margin-top: 50px;
@@ -52,6 +75,7 @@ h4 {
 
 .btncv {
   background-color: #d5f5f3;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.9rem;
   width: 150px;
   height: 70px;
@@ -59,6 +83,14 @@ h4 {
   border-style: none;
   box-shadow: rgb(226, 231, 235) 3px 3px 6px 0px inset,
     rgba(204, 116, 233, 0.836) -3px -3px 6px 1px inset;
+}
+
+@media (max-width: 700px) {
+  .btncv  {
+  font-size: 0.8rem;
+  width: 100px;
+  height: 50px;
+  }
 }
 
 .avatar {
@@ -106,6 +138,13 @@ img {
   height: 70px;
 }
 
+@media (max-width: 700px) {
+  .herramientas img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .herramientas2 {
   
   display: flex;
@@ -118,17 +157,33 @@ img {
   height: 50px;
 }
 
+@media (max-width: 700px) {
+  .herramientas2 img  {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .mashero {
   text-align: center;
 }
 
-.iconos img {
+.iconos img  {
   width: 50px;
   height: 50px;
- 
+
+  
 }
 
-.iconos {
+@media (max-width: 700px) {
+  .iconos img  {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.iconos 
+{
   display: flex;
   flex-direction: row;
   align-items: center;

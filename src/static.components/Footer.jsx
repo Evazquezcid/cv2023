@@ -6,9 +6,9 @@ const Footer = () => {
     <div className="footer">
       <footer className="footer">
        <p> Creado por Esther Vázquez Cid 2023  🚀  ©  Copyright </p>
-        <a href="mailto:esthervazquezcid@gmail.com">
+        {/* <a href="mailto:esthervazquezcid@gmail.com">
           <button className="btnemail">Mi 📨 </button>
-        </a>
+        </a> */}
        
       </footer>
     </div>
