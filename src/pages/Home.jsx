@@ -16,8 +16,8 @@ const Home = () => {
       </div>
         <h4>
           Codeo y Diseño paginas WEB.<br></br>Me encanta lo que hago y disfruto
-          investigando nuevas técnologías. Empecé en el mundo del desarrollo hace un año y actualmente hago pequeños trabajos Freelance mientras me sigo formando. También estoy en proceso de creación de una Agencia de Desarrolo web para particulares y pequeñas empresas. Abajo puedes ver mi instagram.
-          <br></br>Abajo tienes un botón para poder descargar mi CV en formato PDF.Estoy lista para un nuevo reto! <br>
+          investigando nuevas técnologías. Empecé en el mundo del desarrollo hace un año y actualmente hago pequeños trabajos Freelance mientras me sigo formando. También estoy en proceso de creación de una Agencia de Desarrolo Web para autónomos y pequeñas empresas.
+          <br></br>Tienes un botón para poder descargar mi CV en formato PDF.Estoy lista para un nuevo reto! <br>
 
           </br>Let´s Go!  🚀
         </h4>
