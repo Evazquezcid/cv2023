@@ -50,7 +50,7 @@ const AboutMe = () => {
           <div class="card__header-text">
             <h3 class="card__title">NETFLIX REPLICA</h3>
             {/* <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>             */}
-            <span class="card__status">ANGULAR,HTML,JAVASCRIP,CSS.</span>
+            <span class="card__status">ANGULAR,HTML,JAVASCRIPT,CSS.</span>
           </div>
         </div>
         <p class="card__description">Manejo Angular en estre proyecto simulando la pagina de Netflix para practicar la re-utilización de componentes.</p>
@@ -66,10 +66,10 @@ const AboutMe = () => {
           <img class="card__thumb" src="avataaars.png" alt="" />
           <div class="card__header-text">
             <h3 class="card__title">PIEDRA,PAPEL O TIJERA</h3>
-            <span class="card__status">JAVASCRIP</span>
+            <span class="card__status">JAVASCRIPT</span>
           </div>          
         </div>
-        <p class="card__description">Practicando Javascrips y sus eventos. Si lo puebras no podrás parar. </p>
+        <p class="card__description">Practicando Javascript y sus eventos. Si lo puebras no podrás parar. </p>
       </div>
     </a>
   </li>
@@ -82,7 +82,7 @@ const AboutMe = () => {
           <img class="card__thumb" src="avataaars.png" alt="me" />
           <div class="card__header-text">
             <h3 class="card__title">TOYLAND</h3>
-            <span class="card__status">JAVASCRIP Y BOOTSTRAP</span>
+            <span class="card__status">JAVASCRIPT Y BOOTSTRAP</span>
           </div>
         </div>
         <p class="card__description">Creo un carro de la compra donde poder editarlo o eliminar productos. Utilizo Bootstrap para la maquetacíon.</p>
