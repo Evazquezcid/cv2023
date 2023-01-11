@@ -6,23 +6,23 @@ const Home = () => {
   return (
     <div className="container">
       <div className="intro">
-        <h1 className="titulo">Jr.Full Stack Developer</h1>
+        
         <div className="containerimagen">
-        <img className="avatar" src="avataaars.png" alt="foto" />
+        <img className="avatar" src="banner.png" alt="foto" />
       </div>
-        <h2>Soy Esther</h2>
-        <div className="finalhome">
-        <img className="imgmac" src="mac.png" alt="foto" />
-      </div>
-        <h4>
-          Codeo y Diseño paginas WEB.<br></br>Me encanta lo que hago y disfruto
-          investigando nuevas técnologías. Empecé en el mundo del desarrollo hace un año y actualmente hago pequeños trabajos Freelance mientras me sigo formando. También estoy en proceso de creación de una Agencia de Desarrolo Web para autónomos y pequeñas empresas.
-          <br></br>Tienes un botón para poder descargar mi CV en formato PDF.Estoy lista para un nuevo reto! <br>
-
-          </br>Let´s Go!  🚀
-        </h4>
+        
         <div className="mashero">
+        <h4>
+         <strong>Codeo y Diseño paginas WEB.</strong> <br></br>Me encanta lo que hago y disfruto
+          investigando nuevas técnologías. Empecé en el mundo del desarrollo hace un año y actualmente hago pequeños trabajos Freelance mientras me sigo formando.
+          También estoy en proceso de creación de una Agencia de Desarrolo Web para autónomos y pequeñas empresas. Me gusta todo lo relacionado con el diseño y la maquetación. 
+          
+        </h4>
+        <h4>
+        Tienes un botón para poder descargar mi CV en formato PDF. <br></br>Estoy lista para un nuevo reto! 
+        </h4>
       <h4> Aparte del mundo del desarrollo, me gusta el Marketing Digital y tengo un Programa superior de Adobe Campaing, Analytics y Target. </h4>
+      <h4>Let´s Go!  🚀</h4>
       </div>
       <div className="allh">
       <div className="herramientas">

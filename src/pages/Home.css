@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crushed&family=Fira+Sans:ital,wght@0,100;1,100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
 
 .container {
   margin-left: 10%;
@@ -11,8 +10,6 @@
   background-image: url("../../public/fondo.png");
   background-size: 300px 500px;
   margin-bottom: 5%;
-  border-radius: 30px;
-  
 }
 
 .intro {
@@ -20,62 +17,41 @@
   text-align: center;
   padding: 10%;
   line-height: 43px;
-  font-family: 'Roboto Mono', monospace;
-  
-}
-
-.titulo {
-  font-size: 2.5rem;
-  background-color: #fcfcfc;
-  
+  font-family: "Roboto Mono", monospace;
 }
 
 @media (max-width: 700px) {
- .titulo {
-  font-size: 1.8rem;
+  .mashero h2,
+  h4 {
+    font-size: 0.9 rem;
+    text-align: justify;
   }
 }
 
-.intro h2,
-h4 {
-  margin-bottom: 25px;
-  margin-top: 15px;
-  font-size: 1.2rem;
-  background-color: #fcfcfc;
- 
-}
 
-@media (max-width: 700px) {
-  .intro h2,
-h4  {
-   font-size: 0.9 rem;
-   text-align: justify;
-   }
- }
 
-.intro h2 {
-  font-size: 1.8rem;
-  margin-top: 3%;
-  
-}
 
-@media (max-width: 700px) {
-  .intro h2 {
-   font-size: 1.1 rem;
-   text-align: center;
-   }
- }
 
 .containerimagen {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+
+  margin-bottom: 10%;
+}
+
+.avatar {
+  width: 80%;
+  border: 10px;
+  border-radius: 40px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 2%;
+
   align-items: center;
 }
 
 .btncv {
   background-color: #d5f5f3;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 0.9rem;
   width: 150px;
   height: 70px;
@@ -86,51 +62,30 @@ h4  {
 }
 
 @media (max-width: 700px) {
-  .btncv  {
-  font-size: 0.8rem;
-  width: 100px;
-  height: 50px;
+  .btncv {
+    font-size: 0.8rem;
+    width: 100px;
+    height: 50px;
   }
-}
-
-.avatar {
-  background-color: #d5f5f3;
-  border: 10px;
-  border-radius: 40px;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-  padding: 2%;
-}
-
-.avatar:hover {
-  box-shadow: rgba(191, 222, 51, 0.828) 1.95px 1.95px 2.6px;
-}
-img {
-  height: 250px;
-  width: 250px;
 }
 
 .sobremi {
   text-align: center;
   margin: 5%;
-  
 }
 
 .allh {
   background-color: #fcfcfc;
-  box-shadow: rgba(207, 233, 94, 0.828) 1.95px 1.95px 2.6px;
+  box-shadow: rgb(253, 60, 228) 1.95px 1.95px 2.6px;
   border-radius: 30px;
   padding: 3%;
   margin: 10%;
 }
 .herramientas {
-  
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 5%;
-
-  
 }
 
 .herramientas img {
@@ -140,13 +95,12 @@ img {
 
 @media (max-width: 700px) {
   .herramientas img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 }
 
 .herramientas2 {
-  
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -158,32 +112,49 @@ img {
 }
 
 @media (max-width: 700px) {
-  .herramientas2 img  {
-    width: 20px;
-    height: 20px;
+  .herramientas2 img {
+    width: 30px;
+    height: 30px;
   }
 }
 
 .mashero {
   text-align: center;
+  background-color: #fcfcfc;
+  padding: 10%;
+  text-align: justify; 
 }
 
-.iconos img  {
-  width: 50px;
-  height: 50px;
-
+.mashero h4 {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  margin-top: 3%;
   
+
 }
 
 @media (max-width: 700px) {
-  .iconos img  {
-    width: 20px;
-    height: 20px;
+  .mashero h4 {
+    font-size: 0.9rem;
   }
 }
 
-.iconos 
-{
+.iconos img {
+  width: 50px;
+  height: 50px;
+
+}
+
+
+
+@media (max-width: 700px) {
+  .iconos img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.iconos {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,33 +163,28 @@ img {
   margin-top: 10%;
   border-top: 2px solid black;
   background-color: #fcfcfc;
- 
 }
-
 
 @keyframes animacionMac {
   0% {
     -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg);
+    transform: rotate(-360deg);
     -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
     opacity: 0;
   }
   100% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
     opacity: 1;
   }
-  }
-
-
-  
+}
 
 .imgmac {
   margin-bottom: 5%;
   animation-name: animacionMac;
-  animation-iteration-count:initial;
+  animation-iteration-count: initial;
   animation-duration: 10s;
 }
