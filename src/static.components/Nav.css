@@ -12,14 +12,13 @@
 
 .Nav{
     background-color: rgb(255, 255, 255);
-    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 8vh;
     width: 100%;
-    font-weight: bold;
-    font-size: 20px;
+   
+    
     
    
 }
