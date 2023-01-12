@@ -17,14 +17,13 @@
     justify-content: space-around;
     height: 8vh;
     width: 100%;
-   
-    
-    
+    font-size: 1.3rem; 
    
 }
 
 .Nav h2 {
     font-family: 'Nothing You Could Do', cursive;
+   
 }
 
 @media (max-width: 600px) {
@@ -42,12 +41,6 @@
     }
   }
 
-.Nav img {
-    
-        width: 130px;
-        height: 90px;
-     
-}
 
 .button {
     text-decoration: none;
