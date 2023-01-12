@@ -39,14 +39,14 @@
 }
 
 .avatar {
-  width: 80%;
+  width: 100%;
   border: 10px;
-  border-radius: 40px;
+  border-radius: 20px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   padding: 2%;
-
   align-items: center;
+  background-color: #fcfcfc;
 }
 
 .btncv {
@@ -127,15 +127,14 @@
 
 .mashero h4 {
   font-size: 1.4rem;
-  letter-spacing: 3px;
   margin-top: 3%;
-  
 
 }
 
 @media (max-width: 700px) {
   .mashero h4 {
     font-size: 0.9rem;
+    letter-spacing: none;
   }
 }
 
@@ -182,9 +181,3 @@
   }
 }
 
-.imgmac {
-  margin-bottom: 5%;
-  animation-name: animacionMac;
-  animation-iteration-count: initial;
-  animation-duration: 10s;
-}

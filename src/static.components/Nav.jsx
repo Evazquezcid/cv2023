@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="cointainernav">
       <ul className="Nav">
       <li>
-          <img src="estherp.png" alt="logo"/>
+          <h2>Esther Vázquez</h2>
         </li>
         <li>
           <Link to="/">Home</Link>

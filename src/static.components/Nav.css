@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+
+
 *{
     list-style-type: none;
      color: black;
@@ -20,10 +24,22 @@
    
 }
 
+.Nav h2 {
+    font-family: 'Nothing You Could Do', cursive;
+}
 
 @media (max-width: 600px) {
     .Nav{
-        font-size: 0.9 rem;
+        font-size: 0.9rem;
+    }
+
+    .Nav h2 {
+       font-size: 0.8rem;
+    }
+
+    .button{
+        padding: 2%;
+        font-size: 0.5rem;
     }
   }
 
@@ -39,10 +55,11 @@
     background-color:#d5f5f3;
     border-radius: 30px;
     font-size: .8rem;
-    padding: 1%;
+    padding: 10px;
+    font-family: 'Nothing You Could Do', cursive;
 }
 
 button:hover{
-    background-color: rgb(224, 205, 241);
+    background-color: #fd3ce4;
 }
 

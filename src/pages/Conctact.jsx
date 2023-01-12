@@ -8,7 +8,9 @@ const Conctact = () => {
   <div className='header'>
  <h1> About Me</h1>
 
- <p>Si has llegado hasta aquí me gustaria que me conocieras un poco más allá de la programación y poder compartir mis pasiones. Me gusta todo lo que tenga que ver con los animales, los libros, y el comportamiento de las personas. <br></br>Colaboro con varias protectoras y me gustaria lanzar un proyecto que tengo en mente para una ONG.</p>
+ <p>Si has llegado hasta aquí me gustaria que me conocieras un poco más allá de la programación y poder compartir mis pasiones. Me gusta todo lo que tenga que ver con los animales,
+  los libros, y el comportamiento de las personas, la Psicologia y el Coaching. </p>
+ <p>Colaboro con varias protectoras y me gustaría lanzar un proyecto que tengo en mente para una ONG.</p>
   </div>
   <><div className="row1-container">
       <div className="box box-down cyan">
