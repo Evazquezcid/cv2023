@@ -16,7 +16,8 @@ const Home = () => {
             desarrollo hace casi un año y actualmente hago pequeños trabajos
             Freelance mientras me sigo formando. Me gusta todo lo relacionado
             con el diseño y la maquetación y acabo de finalizar un curso "Master
-            en Css: Responsive, SASS, Flesbox , Grid y Bootstrap" .
+            en Css:<strong>"Master
+            en Css:Responsive, SASS, Flesbox , Grid y Bootstrap" .</strong> 
             <h4>
               {" "}
               Capacidad de liderazgo, gestión, formación y desarrollo de
@@ -31,17 +32,16 @@ const Home = () => {
           <h4>
             {" "}
             Aparte del mundo del desarrollo, me gusta el Marketing Digital y
-            tengo un Programa superior de Adobe Campaing, Analytics y Target.{" "}
+            tengo un <strong>Programa superior de Adobe Campaing, Analytics y Target.</strong>{" "}
           </h4>
-          <h4>Estoy lista para el reto</h4>
-          <h4>Let´s Go! 🚀</h4>
+         
           <h4>
            Desde este  botón puedes descargar tambien mi CV en PDF. <br></br>
            </h4>
         </div>
 
         <button className="btncv">
-          <a href={"estherv.png"} target="_blank" rel="noopener noreferrer">
+          <a href={"EstherVazquezCid.pdf"} target="_blank" rel="noopener noreferrer">
             CV PDF
           </a>
         </button>
@@ -60,6 +60,11 @@ const Home = () => {
             <img className="img" src="git.png" alt="foto" />
             <img className="img" src="bootstrap.png" alt="foto" />
             <img className="img" src="wordpress.png" alt="foto" />
+            
+          </div>
+          <div className="herramientas3">
+          <img className="img" src="adobe_target-logo.webp" alt="foto" />
+            <img className="img" src="adobe_campaign.webp" alt="foto" />
           </div>
         </div>
 

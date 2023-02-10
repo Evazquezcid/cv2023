@@ -7,6 +7,41 @@ const AboutMe = () => {
      <h1>Projects</h1>
       <div className="cointainertarjetas">
       <ul class="cards">
+      <li>
+    <a href="https://webagencynoname.es/" class="card">
+      <img src="logogrande_transparente2.png" class="card__image" alt="agencia" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+          <img class="card__thumb" src="avataaars.png" alt="me" />
+          <div class="card__header-text">
+            <h3 class="card__title">AGENCIA DIGITAL</h3>            
+            <span class="card__status">WORDPRESS</span>
+          </div>
+        </div>
+        <p class="card__description">Proyecto personal para creacion de empresa de una agencia digital como
+         asesoramiento y ejecucion de paginas web para empresas o personas que requieran de este servicio </p>
+        
+      </div>
+    </a>      
+  </li>
+      <li>
+    <a href="https://royailuminacion.vercel.app/" class="card">
+      <img src="logo.JPG" class="card__image" alt="soho" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+          <img class="card__thumb" src="avataaars.png" alt="me" />
+          <div class="card__header-text">
+            <h3 class="card__title">ROYA Iluminacion & Tarimas</h3>            
+            <span class="card__status">HTML,JS,CSS</span>
+          </div>
+        </div>
+        <p class="card__description">Pagina Web para tienda de Tarimas e Iluminación, como proyecto real para un cliente. </p>
+        
+      </div>
+    </a>      
+  </li>
   <li>
     <a href="https://studiosoho.vercel.app/" class="card">
       <img src="logocutre2.png" class="card__image" alt="soho" />
